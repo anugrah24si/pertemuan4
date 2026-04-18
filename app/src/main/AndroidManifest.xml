@@ -11,29 +11,28 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Pertemuan4">
-
+        <activity
+            android:name=".TesMainActivity"
+            android:exported="false" />
         <!-- DashboardActivity sebagai Launcher -->
         <activity
             android:name=".DashboardActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".HalamanInformasiActivity"
             android:exported="false" />
-
         <activity
             android:name=".HalamanHitungActivity"
             android:exported="false" />
-
         <activity
             android:name=".HalamanProfileActivity"
             android:exported="false" />
-
         <activity
             android:name=".MainActivity"
             android:exported="false" />
