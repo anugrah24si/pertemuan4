@@ -31,5 +31,11 @@ class HalamanInformasiActivity : AppCompatActivity() {
         // Event Klik untuk Segitiga
         cardSegitiga.setOnClickListener { navigasiKeHitung("segitiga") }
         btnSegitiga.setOnClickListener { navigasiKeHitung("segitiga") }
+
+        // Tambahkan tombol kembali ke Dashboard
+        val btnKembali = findViewById<Button>(R.id.btnKembaliDashboard)
+        btnKembali.setOnClickListener {
+            finish()
+        }
     }
 }
