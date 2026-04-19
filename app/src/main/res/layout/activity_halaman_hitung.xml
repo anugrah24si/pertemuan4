@@ -11,12 +11,36 @@
         android:id="@+id/tvJudulHitung"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hitung Bangun Datar"
+        android:text="Kalkulator Bangun Datar"
         android:textSize="24sp"
         android:textStyle="bold"
         android:textColor="#333333"
         android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="32dp" />
+        android:layout_marginBottom="16dp" />
+
+    <!-- Pilihan Bangun Datar -->
+    <RadioGroup
+        android:id="@+id/rgPilihanBangun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="24dp">
+
+        <RadioButton
+            android:id="@+id/rbPersegi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Persegi"
+            android:checked="true"
+            android:layout_marginEnd="16dp" />
+
+        <RadioButton
+            android:id="@+id/rbSegitiga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Segitiga" />
+    </RadioGroup>
 
     <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
@@ -105,7 +129,7 @@
         style="@style/Widget.MaterialComponents.Button.TextButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="← Kembali Pilih Bangun"
+        android:text="← Kembali ke Dashboard"
         android:textColor="#757575" />
 
 </LinearLayout>

@@ -74,6 +74,7 @@
                     android:layout_height="wrap_content"
                     android:text="Pilih &amp; Hitung"
                     android:layout_marginTop="12dp"
+                    android:visibility="gone"
                     style="@style/Widget.MaterialComponents.Button" />
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
@@ -112,7 +113,8 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Bangun datar yang dibentuk oleh tiga buah sisi dan tiga titik sudut."
+                    android:text="Bangun datar yang dibentuk oleh tiga buah sisi
+                    dan tiga titik sudut."
                     android:textColor="#666666"
                     android:layout_marginTop="4dp" />
 
@@ -130,6 +132,7 @@
                     android:layout_height="wrap_content"
                     android:text="Pilih &amp; Hitung"
                     android:layout_marginTop="12dp"
+                    android:visibility="gone"
                     style="@style/Widget.MaterialComponents.Button" />
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
